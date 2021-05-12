@@ -10,4 +10,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - us
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v
