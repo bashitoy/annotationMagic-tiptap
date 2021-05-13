@@ -1,1 +1,5 @@
-name: Re
+name: Release tiptap-annotation-magic
+
+on:
+  release:
+    type
