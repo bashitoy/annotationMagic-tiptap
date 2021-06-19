@@ -2,4 +2,8 @@ name: Release tiptap-annotation-magic
 
 on:
   release:
-    type
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-la
