@@ -20,3 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       packages: write
+      contents: read
+    steps:
+      - uses: actions/chec
