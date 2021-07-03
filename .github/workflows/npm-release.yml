@@ -22,4 +22,5 @@ jobs:
       packages: write
       contents: read
     steps:
-      - uses: actions/chec
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
