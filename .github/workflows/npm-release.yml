@@ -17,4 +17,6 @@ jobs:
 
   publish-gpr:
     needs: build
-    runs-on: u
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
