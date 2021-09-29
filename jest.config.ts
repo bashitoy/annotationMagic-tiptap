@@ -3,4 +3,6 @@
  * https://jestjs.io/docs/configuration
  */
 
-im
+import type { Config } from 'jest';
+
+const config: Confi
