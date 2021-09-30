@@ -5,4 +5,7 @@
 
 import type { Config } from 'jest';
 
-const config: Confi
+const config: Config = {
+  transform: {
+    '^.+\\.(ts|tsx)$': 'ts-jest',
+ 
