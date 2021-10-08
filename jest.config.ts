@@ -9,4 +9,6 @@ const config: Config = {
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
   },
-  // All imported modules in your tests should
+  // All imported modules in your tests should be mocked automatically
+  // automock: false,
+
