@@ -15,4 +15,5 @@ const config: Config = {
   // Stop running tests after `n` failures
   // bail: 0,
 
-  // The directory where Jest should store it
+  // The directory where Jest should store its cached dependency information
+ 
