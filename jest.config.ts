@@ -13,4 +13,6 @@ const config: Config = {
   // automock: false,
 
   // Stop running tests after `n` failures
-  // b
+  // bail: 0,
+
+  // The directory where Jest should store it
