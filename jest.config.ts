@@ -16,4 +16,4 @@ const config: Config = {
   // bail: 0,
 
   // The directory where Jest should store its cached dependency information
- 
+  // cacheDirectory: "C:\\Users\\dev\\AppData\\Local\\Temp\\jest
