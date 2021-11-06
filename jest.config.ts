@@ -20,3 +20,5 @@ const config: Config = {
 
   // Automatically clear mock calls, instances, contexts and results before every test
   clearMocks: true,
+
+  // Indicates whether the coverage information should b
