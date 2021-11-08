@@ -22,4 +22,6 @@ const config: Config = {
   clearMocks: true,
 
   // Indicates whether the coverage information should be collected while executing the test
-  // collec
+  // collectCoverage: false,
+
+  // An array of glob patte
