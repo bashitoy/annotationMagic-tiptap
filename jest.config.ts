@@ -25,4 +25,6 @@ const config: Config = {
   // collectCoverage: false,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
-  // collectCoverageFrom: undefi
+  // collectCoverageFrom: undefined,
+
+  // The directory where Jest should output 
