@@ -35,4 +35,7 @@ const config: Config = {
   //   "\\\\node_modules\\\\"
   // ],
 
-  // Indicates which provider should be used to instrument
+  // Indicates which provider should be used to instrument code for coverage
+  coverageProvider: 'v8',
+
+  // A li
