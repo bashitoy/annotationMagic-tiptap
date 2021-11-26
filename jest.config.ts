@@ -28,4 +28,6 @@ const config: Config = {
   // collectCoverageFrom: undefined,
 
   // The directory where Jest should output its coverage files
-  // coverageDirectory: undefine
+  // coverageDirectory: undefined,
+
+  // An array of regexp pattern strings used
