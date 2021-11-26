@@ -31,4 +31,8 @@ const config: Config = {
   // coverageDirectory: undefined,
 
   // An array of regexp pattern strings used to skip coverage collection
-  // coveragePa
+  // coveragePathIgnorePatterns: [
+  //   "\\\\node_modules\\\\"
+  // ],
+
+  
