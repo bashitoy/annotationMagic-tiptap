@@ -35,4 +35,4 @@ const config: Config = {
   //   "\\\\node_modules\\\\"
   // ],
 
-  
+  // Indicates which provider should be used to instrument
