@@ -46,4 +46,5 @@ const config: Config = {
   //   "clover"
   // ],
 
-  // An object that configures minimum threshold enfo
+  // An object that configures minimum threshold enforcement for coverage results
+  // coverageThreshold: 
