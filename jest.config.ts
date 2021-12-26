@@ -47,4 +47,6 @@ const config: Config = {
   // ],
 
   // An object that configures minimum threshold enforcement for coverage results
-  // coverageThreshold: 
+  // coverageThreshold: undefined,
+
+  // A path to a custom depen
