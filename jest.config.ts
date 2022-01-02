@@ -49,4 +49,5 @@ const config: Config = {
   // An object that configures minimum threshold enforcement for coverage results
   // coverageThreshold: undefined,
 
-  // A path to a custom depen
+  // A path to a custom dependency extractor
+  // dependencyExtractor: undefined,
