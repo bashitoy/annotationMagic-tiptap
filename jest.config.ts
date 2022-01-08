@@ -57,4 +57,7 @@ const config: Config = {
 
   // The default configuration for fake timers
   // fakeTimers: {
-  //  
+  //   "enableGlobally": false
+  // },
+
+  // Force c
