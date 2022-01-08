@@ -55,4 +55,6 @@ const config: Config = {
   // Make calling deprecated APIs throw helpful error messages
   // errorOnDeprecated: false,
 
-  // The default c
+  // The default configuration for fake timers
+  // fakeTimers: {
+  //  
