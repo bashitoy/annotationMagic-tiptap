@@ -60,4 +60,4 @@ const config: Config = {
   //   "enableGlobally": false
   // },
 
-  // Force c
+  // Force coverage collection from ignored files using an array of glob pa
