@@ -63,4 +63,4 @@ const config: Config = {
   // Force coverage collection from ignored files using an array of glob patterns
   // forceCoverageMatch: [],
 
- 
+  // A path to a module which exports an async functi
