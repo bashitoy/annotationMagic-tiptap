@@ -64,4 +64,6 @@ const config: Config = {
   // forceCoverageMatch: [],
 
   // A path to a module which exports an async function that is triggered once before all test suites
-  // glob
+  // globalSetup: undefined,
+
+  // A path to a module which exports 
