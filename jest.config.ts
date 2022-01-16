@@ -69,4 +69,4 @@ const config: Config = {
   // A path to a module which exports an async function that is triggered once after all test suites
   // globalTeardown: undefined,
 
-  // A 
+  // A set of global variables that need to be available in all t
