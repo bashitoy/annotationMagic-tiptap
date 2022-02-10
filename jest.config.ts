@@ -80,4 +80,5 @@ const config: Config = {
   //   "node_modules"
   // ],
 
-  // An array of file 
+  // An array of file extensions your modules use
+  // moduleFileEx
