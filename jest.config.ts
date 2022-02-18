@@ -81,4 +81,7 @@ const config: Config = {
   // ],
 
   // An array of file extensions your modules use
-  // moduleFileEx
+  // moduleFileExtensions: [
+  //   "js",
+  //   "mjs",
+  //   "c
