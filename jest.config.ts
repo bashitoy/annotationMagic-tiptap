@@ -84,4 +84,8 @@ const config: Config = {
   // moduleFileExtensions: [
   //   "js",
   //   "mjs",
-  //   "c
+  //   "cjs",
+  //   "jsx",
+  //   "ts",
+  //   "tsx",
+  //   "json"
