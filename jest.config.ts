@@ -88,4 +88,8 @@ const config: Config = {
   //   "jsx",
   //   "ts",
   //   "tsx",
-  //   "json"
+  //   "json",
+  //   "node"
+  // ],
+
+  // A map from regular expressio
