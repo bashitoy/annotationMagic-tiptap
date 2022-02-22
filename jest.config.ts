@@ -92,4 +92,4 @@ const config: Config = {
   //   "node"
   // ],
 
-  // A map from regular expressio
+  // A map from regular expressions to module names or to arrays of module names that allow to stub ou
