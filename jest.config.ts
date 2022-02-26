@@ -101,3 +101,4 @@ const config: Config = {
   // Activates notifications for test results
   // notify: false,
 
+  // An enum that specifies notification mode. Req
