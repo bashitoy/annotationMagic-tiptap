@@ -101,4 +101,6 @@ const config: Config = {
   // Activates notifications for test results
   // notify: false,
 
-  // An enum that specifies notification mode. Req
+  // An enum that specifies notification mode. Requires { notify: true }
+  // notifyMode: "failure-change",
+
