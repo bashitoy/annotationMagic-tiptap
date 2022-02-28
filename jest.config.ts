@@ -108,4 +108,6 @@ const config: Config = {
   // preset: undefined,
 
   // Run tests from one or more projects
-  // projects: 
+  // projects: undefined,
+
+  // Use this configuration optio
