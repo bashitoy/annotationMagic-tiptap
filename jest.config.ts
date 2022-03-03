@@ -110,4 +110,5 @@ const config: Config = {
   // Run tests from one or more projects
   // projects: undefined,
 
-  // Use this configuration optio
+  // Use this configuration option to add custom reporters to Jest
+  // reporters: undefined
