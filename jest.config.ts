@@ -113,4 +113,7 @@ const config: Config = {
   // Use this configuration option to add custom reporters to Jest
   // reporters: undefined,
 
-  // Automatically reset mock state before ev
+  // Automatically reset mock state before every test
+  // resetMocks: false,
+
+  // Reset the module regis
