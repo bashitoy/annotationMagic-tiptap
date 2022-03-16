@@ -116,4 +116,5 @@ const config: Config = {
   // Automatically reset mock state before every test
   // resetMocks: false,
 
-  // Reset the module regis
+  // Reset the module registry before running each individual test
+  // resetModules: f
