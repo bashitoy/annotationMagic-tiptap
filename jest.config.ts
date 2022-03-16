@@ -117,4 +117,7 @@ const config: Config = {
   // resetMocks: false,
 
   // Reset the module registry before running each individual test
-  // resetModules: f
+  // resetModules: false,
+
+  // A path to a custom resolver
+  // re
