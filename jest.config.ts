@@ -120,4 +120,6 @@ const config: Config = {
   // resetModules: false,
 
   // A path to a custom resolver
-  // re
+  // resolver: undefined,
+
+  // Automatically restore mock state and implemen
