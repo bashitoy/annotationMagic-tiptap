@@ -126,4 +126,6 @@ const config: Config = {
   // restoreMocks: false,
 
   // The root directory that Jest should scan for tests and modules within
-  // 
+  // rootDir: undefined,
+
+  // A list of paths to directori
