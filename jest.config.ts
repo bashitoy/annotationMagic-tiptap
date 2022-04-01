@@ -133,4 +133,5 @@ const config: Config = {
   //   "<rootDir>"
   // ],
 
-  // Allows you t
+  // Allows you to use a custom runner instead of Jest's default test runner
+ 
