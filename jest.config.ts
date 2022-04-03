@@ -134,4 +134,6 @@ const config: Config = {
   // ],
 
   // Allows you to use a custom runner instead of Jest's default test runner
- 
+  // runner: "jest-runner",
+
+  // The paths to modules that
