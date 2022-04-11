@@ -145,4 +145,4 @@ const config: Config = {
   // The number of seconds after which a test is considered as slow and reported as such in the results.
   // slowTestThreshold: 5,
 
-  // A
+  // A list of paths to snapshot serializer modules Jest
