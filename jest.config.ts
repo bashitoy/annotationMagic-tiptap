@@ -148,4 +148,5 @@ const config: Config = {
   // A list of paths to snapshot serializer modules Jest should use for snapshot testing
   // snapshotSerializers: [],
 
-  // The test environment that will be used for testin
+  // The test environment that will be used for testing
+  // testEnvironment: "jest-environment-node"
