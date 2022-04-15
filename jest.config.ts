@@ -154,4 +154,5 @@ const config: Config = {
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
 
-  // Adds a location fi
+  // Adds a location field to test results
+  // testLocationInResults: fals
