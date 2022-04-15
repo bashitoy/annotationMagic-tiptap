@@ -163,4 +163,4 @@ const config: Config = {
   //   "**/?(*.)+(spec|test).[tj]s?(x)"
   // ],
 
-  // An 
+  // An array of regexp pattern strings that are matched aga
