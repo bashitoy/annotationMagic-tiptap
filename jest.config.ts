@@ -171,4 +171,5 @@ const config: Config = {
   // The regexp pattern or array of patterns that Jest uses to detect test files
   // testRegex: [],
 
-  // This 
+  // This option allows the use of a custom results processor
+  /
