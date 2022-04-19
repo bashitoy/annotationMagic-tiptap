@@ -174,4 +174,5 @@ const config: Config = {
   // This option allows the use of a custom results processor
   // testResultsProcessor: undefined,
 
-  // This option all
+  // This option allows use of a custom test runner
+  // testRunner
