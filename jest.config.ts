@@ -172,4 +172,6 @@ const config: Config = {
   // testRegex: [],
 
   // This option allows the use of a custom results processor
-  /
+  // testResultsProcessor: undefined,
+
+  // This option all
