@@ -177,4 +177,7 @@ const config: Config = {
   // This option allows use of a custom test runner
   // testRunner: "jest-circus/runner",
 
-  // A map from regular expressions 
+  // A map from regular expressions to paths to transformers
+  // transform: undefined,
+
+  
