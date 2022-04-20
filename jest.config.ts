@@ -180,4 +180,4 @@ const config: Config = {
   // A map from regular expressions to paths to transformers
   // transform: undefined,
 
-  
+  // An array of regexp pattern strings that are matche
