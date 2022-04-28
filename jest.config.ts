@@ -192,4 +192,4 @@ const config: Config = {
   // Indicates whether each individual test should be reported during the run
   // verbose: undefined,
 
-  // An array of
+  // An array of regexp patterns that are matched against a
