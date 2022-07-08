@@ -1,4 +1,6 @@
 {
   "name": "tiptap-annotation-magic",
   "author": "Lucca Baumgärtner <kontakt@luccabaumgaertner.de>",
-  "licen
+  "license": "MIT",
+  "version": "2.0.1",
+  "main": "bui
