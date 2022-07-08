@@ -5,4 +5,7 @@
   "version": "2.0.1",
   "main": "build/index.js",
   "types": "build/index.d.ts",
-  "scripts":
+  "scripts": {
+    "build": "tsc",
+    "prepack": "tsc && jest",
+ 
