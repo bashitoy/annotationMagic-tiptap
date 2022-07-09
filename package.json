@@ -8,4 +8,7 @@
   "scripts": {
     "build": "tsc",
     "prepack": "tsc && jest",
- 
+    "test": "jest"
+  },
+  "repository": {
+    "type": "gi
