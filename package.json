@@ -11,4 +11,5 @@
     "test": "jest"
   },
   "repository": {
-    "type": "gi
+    "type": "git",
+    "url": "https://github.com/luccalb/tiptap-annotat
