@@ -20,4 +20,6 @@
     "comments",
     "wysiwyg",
     "nlp"
- 
+  ],
+  "dependencies": {
+    "@tiptap/core": "^2.1.7",
