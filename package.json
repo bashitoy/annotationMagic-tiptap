@@ -23,3 +23,6 @@
   ],
   "dependencies": {
     "@tiptap/core": "^2.1.7",
+    "@tiptap/pm": "^2.1.7"
+  },
+  "devDependenci
