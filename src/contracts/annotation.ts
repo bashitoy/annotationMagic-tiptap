@@ -7,3 +7,6 @@ export declare type AnnotationRendering =
 export interface Annotation<K> {
   id: string;
   from: number;
+  to: number;
+  displayName?: string;
+  data
