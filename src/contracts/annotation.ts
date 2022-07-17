@@ -1,3 +1,9 @@
 export declare type AnnotationRendering =
   | "normal"
-  | "fragment-ri
+  | "fragment-right"
+  | "fragment-left"
+  | "fragment-middle";
+
+export interface Annotation<K> {
+  id: string;
+  from: number;
