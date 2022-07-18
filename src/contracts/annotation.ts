@@ -9,4 +9,7 @@ export interface Annotation<K> {
   from: number;
   to: number;
   displayName?: string;
-  data
+  data?: K;
+  tag?: string;
+  selectedText?: string;
+  render
