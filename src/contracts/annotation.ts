@@ -12,4 +12,5 @@ export interface Annotation<K> {
   data?: K;
   tag?: string;
   selectedText?: string;
-  render
+  rendering?: AnnotationRendering;
+  backgroundCol
