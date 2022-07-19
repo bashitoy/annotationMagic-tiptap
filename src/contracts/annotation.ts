@@ -13,4 +13,7 @@ export interface Annotation<K> {
   tag?: string;
   selectedText?: string;
   rendering?: AnnotationRendering;
-  backgroundCol
+  backgroundColor?: string;
+}
+
+export interface AnnotationFragment<
