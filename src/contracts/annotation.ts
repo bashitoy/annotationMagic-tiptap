@@ -16,4 +16,6 @@ export interface Annotation<K> {
   backgroundColor?: string;
 }
 
-export interface AnnotationFragment<
+export interface AnnotationFragment<K> extends Annotation<K> {
+  rendering: AnnotationRendering;
+}
