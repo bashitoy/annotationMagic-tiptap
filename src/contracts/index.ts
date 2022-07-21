@@ -1,1 +1,1 @@
-e
+export { Annotation } from "./annotation";
