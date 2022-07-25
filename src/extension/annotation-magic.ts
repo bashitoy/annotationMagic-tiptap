@@ -1,1 +1,2 @@
-import { Extens
+import { Extension } from "@tiptap/core";
+import { AnnotationPlugin, Annotati
