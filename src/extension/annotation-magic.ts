@@ -19,4 +19,7 @@ export interface AddAnnotationAction<K> {
 export interface UpdateAnnotationAction<K> {
   type: "updateAnnotation";
   id: string;
-  data
+  data: K;
+}
+
+export interface DeleteAnnotationAction {
