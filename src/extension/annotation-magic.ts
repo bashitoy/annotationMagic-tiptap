@@ -6,4 +6,8 @@ export interface RenderStyles {
   rightFragment: string;
   leftFragment: string;
   normal: string;
-  middleFragment: strin
+  middleFragment: string;
+}
+
+export interface AddAnnotationAction<K> {
+  
