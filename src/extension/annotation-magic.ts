@@ -10,4 +10,6 @@ export interface RenderStyles {
 }
 
 export interface AddAnnotationAction<K> {
-  
+  type: "addAnnotation";
+  from: number;
+  to: number;
