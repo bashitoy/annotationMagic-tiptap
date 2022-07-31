@@ -23,3 +23,8 @@ export interface UpdateAnnotationAction<K> {
 }
 
 export interface DeleteAnnotationAction {
+  type: "deleteAnnotation";
+  id: string;
+}
+
+int
