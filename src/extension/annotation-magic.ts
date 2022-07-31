@@ -4,4 +4,6 @@ import { Annotation } from "../contracts";
 
 export interface RenderStyles {
   rightFragment: string;
-  leftFragment:
+  leftFragment: string;
+  normal: string;
+  middleFragment: strin
