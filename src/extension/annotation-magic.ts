@@ -13,3 +13,7 @@ export interface AddAnnotationAction<K> {
   type: "addAnnotation";
   from: number;
   to: number;
+  data: K;
+}
+
+export interface UpdateAnnotationAction<K> 
