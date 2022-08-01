@@ -27,4 +27,7 @@ export interface DeleteAnnotationAction {
   id: string;
 }
 
-int
+interface AnnotationOptions<K> {
+  styles: RenderStyles;
+  /**
+   * A
