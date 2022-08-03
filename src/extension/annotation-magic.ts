@@ -30,4 +30,4 @@ export interface DeleteAnnotationAction {
 interface AnnotationOptions<K> {
   styles: RenderStyles;
   /**
-   * A
+   * An event listener which receives annotations for the current 
