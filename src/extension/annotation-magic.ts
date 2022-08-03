@@ -30,4 +30,6 @@ export interface DeleteAnnotationAction {
 interface AnnotationOptions<K> {
   styles: RenderStyles;
   /**
-   * An event listener which receives annotations for the current 
+   * An event listener which receives annotations for the current selection.
+   */
+  onSelectionChange: (items: Annota
