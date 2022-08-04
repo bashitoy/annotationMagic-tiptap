@@ -32,4 +32,6 @@ interface AnnotationOptions<K> {
   /**
    * An event listener which receives annotations for the current selection.
    */
-  onSelectionChange: (items: Annota
+  onSelectionChange: (items: Annotation<K>[]) => void;
+  /**
+   * An event listene
