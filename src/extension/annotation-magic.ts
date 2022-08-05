@@ -36,4 +36,8 @@ interface AnnotationOptions<K> {
   /**
    * An event listener which receives all annotations.
    */
-  onAnnotationListChange: (items: Annotation<K>[]
+  onAnnotationListChange: (items: Annotation<K>[]) => void;
+  instance: string;
+}
+
+declare modul
