@@ -36,4 +36,4 @@ interface AnnotationOptions<K> {
   /**
    * An event listener which receives all annotations.
    */
-  onAnno
+  onAnnotationListChange: (items: Annotation<K>[]
