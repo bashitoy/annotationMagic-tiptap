@@ -40,4 +40,5 @@ interface AnnotationOptions<K> {
   instance: string;
 }
 
-declare modul
+declare module "@tiptap/core" {
+  interface Commands
