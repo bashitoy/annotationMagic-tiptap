@@ -43,4 +43,5 @@ interface AnnotationOptions<K> {
 declare module "@tiptap/core" {
   interface Commands<ReturnType> {
     annotation: {
-      addAnnotation: (dat
+      addAnnotation: (data: any) => ReturnType;
+      updateAnnotation: (id: string, d
