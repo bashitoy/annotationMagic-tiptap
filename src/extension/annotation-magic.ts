@@ -45,4 +45,6 @@ declare module "@tiptap/core" {
     annotation: {
       addAnnotation: (data: any) => ReturnType;
       updateAnnotation: (id: string, data: any) => ReturnType;
-      deleteAnnotation:
+      deleteAnnotation: (id: string) => ReturnType;
+    };
+  }
