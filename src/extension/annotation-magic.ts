@@ -48,3 +48,6 @@ declare module "@tiptap/core" {
       deleteAnnotation: (id: string) => ReturnType;
     };
   }
+}
+
+export function AnnotationMagic<K>(): Extensi
