@@ -51,4 +51,7 @@ declare module "@tiptap/core" {
 }
 
 export function AnnotationMagic<K>(): Extension {
-  return Extension.create<AnnotationOptio
+  return Extension.create<AnnotationOptions<K>>({
+    name: "annotation-magic",
+
+    priority
