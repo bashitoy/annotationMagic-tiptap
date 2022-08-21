@@ -50,4 +50,5 @@ declare module "@tiptap/core" {
   }
 }
 
-export function AnnotationMagic<K>(): Extensi
+export function AnnotationMagic<K>(): Extension {
+  return Extension.create<AnnotationOptio
