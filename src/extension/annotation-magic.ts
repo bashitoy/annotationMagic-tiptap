@@ -54,4 +54,8 @@ export function AnnotationMagic<K>(): Extension {
   return Extension.create<AnnotationOptions<K>>({
     name: "annotation-magic",
 
-    priority
+    priority: 1000,
+
+    addOptions() {
+      return {
+      
