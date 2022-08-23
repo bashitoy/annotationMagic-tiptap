@@ -64,4 +64,5 @@ export function AnnotationMagic<K>(): Extension {
           normal: "",
           middleFragment: "",
         },
-   
+        onSelectionChange: (items) => items,
+        onAnnot
