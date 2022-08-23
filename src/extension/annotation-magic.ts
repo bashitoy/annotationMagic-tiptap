@@ -73,4 +73,5 @@ export function AnnotationMagic<K>(): Extension {
     },
 
     onCreate() {
-      // esl
+      // eslint-disable-next-line
+      cons
