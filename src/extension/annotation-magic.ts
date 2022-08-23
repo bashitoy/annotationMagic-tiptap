@@ -68,4 +68,9 @@ export function AnnotationMagic<K>(): Extension {
         onAnnotationListChange: (items) => items,
         document: null,
         field: "annotations",
-        inst
+        instance: "",
+      };
+    },
+
+    onCreate() {
+      // esl
