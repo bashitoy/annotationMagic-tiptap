@@ -60,3 +60,6 @@ export function AnnotationMagic<K>(): Extension {
       return {
         styles: {
           rightFragment: "",
+          leftFragment: "",
+          normal: "",
+  
