@@ -58,4 +58,5 @@ export function AnnotationMagic<K>(): Extension {
 
     addOptions() {
       return {
-      
+        styles: {
+          rightFragment: "",
