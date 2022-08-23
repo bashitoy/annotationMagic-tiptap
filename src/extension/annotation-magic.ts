@@ -62,4 +62,6 @@ export function AnnotationMagic<K>(): Extension {
           rightFragment: "",
           leftFragment: "",
           normal: "",
-  
+          middleFragment: "",
+        },
+   
