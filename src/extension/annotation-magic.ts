@@ -66,4 +66,6 @@ export function AnnotationMagic<K>(): Extension {
         },
         onSelectionChange: (items) => items,
         onAnnotationListChange: (items) => items,
-        document:
+        document: null,
+        field: "annotations",
+        inst
