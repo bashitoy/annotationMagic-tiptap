@@ -74,4 +74,5 @@ export function AnnotationMagic<K>(): Extension {
 
     onCreate() {
       // eslint-disable-next-line
-      cons
+      console.log(
+        `[${this.options.instance}] plugin cre
