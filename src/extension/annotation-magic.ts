@@ -75,4 +75,5 @@ export function AnnotationMagic<K>(): Extension {
     onCreate() {
       // eslint-disable-next-line
       console.log(
-        `[${this.options.instance}] plugin cre
+        `[${this.options.instance}] plugin creation  → initial createDecorations`,
+    
