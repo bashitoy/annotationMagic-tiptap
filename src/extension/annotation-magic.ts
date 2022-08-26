@@ -76,4 +76,6 @@ export function AnnotationMagic<K>(): Extension {
       // eslint-disable-next-line
       console.log(
         `[${this.options.instance}] plugin creation  → initial createDecorations`,
-    
+      );
+
+      const transaction = this.editor
