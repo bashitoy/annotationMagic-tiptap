@@ -78,4 +78,5 @@ export function AnnotationMagic<K>(): Extension {
         `[${this.options.instance}] plugin creation  → initial createDecorations`,
       );
 
-      const transaction = this.editor
+      const transaction = this.editor.state.tr.setMeta(AnnotationPluginKey, {
+        t
