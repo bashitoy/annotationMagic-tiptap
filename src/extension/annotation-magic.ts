@@ -79,4 +79,7 @@ export function AnnotationMagic<K>(): Extension {
       );
 
       const transaction = this.editor.state.tr.setMeta(AnnotationPluginKey, {
-        t
+        type: "createDecorations",
+      });
+
+      /
