@@ -82,4 +82,5 @@ export function AnnotationMagic<K>(): Extension {
         type: "createDecorations",
       });
 
-      /
+      // send a transaction to editor view, telling it to re-render annotations
+   
