@@ -85,3 +85,7 @@ export function AnnotationMagic<K>(): Extension {
       // send a transaction to editor view, telling it to re-render annotations
       this.editor.view.dispatch(transaction);
     },
+
+    addCommands() {
+      return {
+        addAnnota
