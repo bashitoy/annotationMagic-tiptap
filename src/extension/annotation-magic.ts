@@ -90,4 +90,5 @@ export function AnnotationMagic<K>(): Extension {
       return {
         addAnnotation:
           (data: K) =>
-          ({ dis
+          ({ dispatch, state }) => {
+            const { selectio
