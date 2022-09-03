@@ -88,4 +88,6 @@ export function AnnotationMagic<K>(): Extension {
 
     addCommands() {
       return {
-        addAnnota
+        addAnnotation:
+          (data: K) =>
+          ({ dis
