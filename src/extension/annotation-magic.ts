@@ -94,4 +94,7 @@ export function AnnotationMagic<K>(): Extension {
             const { selection } = state;
 
             if (selection.empty) {
-  
+              return false;
+            }
+
+            if (dispatch &&
