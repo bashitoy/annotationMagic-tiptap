@@ -97,4 +97,5 @@ export function AnnotationMagic<K>(): Extension {
               return false;
             }
 
-            if (dispatch &&
+            if (dispatch && data) {
+              state.tr.setMeta(Annotation
