@@ -99,4 +99,5 @@ export function AnnotationMagic<K>(): Extension {
 
             if (dispatch && data) {
               state.tr.setMeta(AnnotationPluginKey, <AddAnnotationAction<K>>{
-               
+                type: "addAnnotation",
+                from: selecti
