@@ -102,4 +102,8 @@ export function AnnotationMagic<K>(): Extension {
                 type: "addAnnotation",
                 from: selection.from,
                 to: selection.to,
-               
+                data,
+              });
+            }
+
+            
