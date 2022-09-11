@@ -106,4 +106,7 @@ export function AnnotationMagic<K>(): Extension {
               });
             }
 
-            
+            return true;
+          },
+        updateAnnotation:
+      
