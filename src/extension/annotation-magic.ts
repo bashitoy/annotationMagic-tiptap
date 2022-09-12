@@ -110,4 +110,6 @@ export function AnnotationMagic<K>(): Extension {
           },
         updateAnnotation:
           (id: string, data: K) =>
-          ({ dis
+          ({ dispatch, state }) => {
+            if (dispatch) {
+  
