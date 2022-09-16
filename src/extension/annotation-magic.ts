@@ -117,4 +117,8 @@ export function AnnotationMagic<K>(): Extension {
                 id,
                 data,
               });
-   
+            }
+
+            return true;
+          },
+    
