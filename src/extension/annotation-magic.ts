@@ -121,4 +121,6 @@ export function AnnotationMagic<K>(): Extension {
 
             return true;
           },
-    
+        deleteAnnotation:
+          (id) =>
+          ({ d
