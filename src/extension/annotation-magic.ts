@@ -128,3 +128,6 @@ export function AnnotationMagic<K>(): Extension {
               state.tr.setMeta(AnnotationPluginKey, <DeleteAnnotationAction>{
                 type: "deleteAnnotation",
                 id,
+              });
+            }
+            return tru
