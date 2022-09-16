@@ -123,4 +123,5 @@ export function AnnotationMagic<K>(): Extension {
           },
         deleteAnnotation:
           (id) =>
-          ({ d
+          ({ dispatch, state }) => {
+            if (disp
