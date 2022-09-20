@@ -130,4 +130,9 @@ export function AnnotationMagic<K>(): Extension {
                 id,
               });
             }
-            return tru
+            return true;
+          },
+      };
+    },
+
+    addProseMirrorPlugins() {
