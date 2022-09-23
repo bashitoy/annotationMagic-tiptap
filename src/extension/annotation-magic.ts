@@ -136,3 +136,6 @@ export function AnnotationMagic<K>(): Extension {
     },
 
     addProseMirrorPlugins() {
+      return [
+        AnnotationPlugin<K>({
+          styles:
