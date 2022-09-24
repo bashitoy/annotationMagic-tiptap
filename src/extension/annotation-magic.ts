@@ -139,4 +139,5 @@ export function AnnotationMagic<K>(): Extension {
       return [
         AnnotationPlugin<K>({
           styles: this.options.styles,
-          onSelectionChange: this.options
+          onSelectionChange: this.options.onSelectionChange,
+          onAnnotationListChange: t
