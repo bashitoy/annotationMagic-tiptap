@@ -138,4 +138,5 @@ export function AnnotationMagic<K>(): Extension {
     addProseMirrorPlugins() {
       return [
         AnnotationPlugin<K>({
-          styles:
+          styles: this.options.styles,
+          onSelectionChange: this.options
