@@ -1,1 +1,1 @@
-export { AnnotationMagic } from "./anno
+export { AnnotationMagic } from "./annotation-magic";
