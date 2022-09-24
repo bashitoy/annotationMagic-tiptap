@@ -141,4 +141,8 @@ export function AnnotationMagic<K>(): Extension {
           styles: this.options.styles,
           onSelectionChange: this.options.onSelectionChange,
           onAnnotationListChange: this.options.onAnnotationListChange,
-          i
+          instance: this.options.instance,
+        }),
+      ];
+    },
+ 
