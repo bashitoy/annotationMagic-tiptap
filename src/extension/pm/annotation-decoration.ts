@@ -5,4 +5,8 @@ export class AnnotationDecoration<K> implements Annotation<K> {
   private decoration!: any;
 
   constructor(decoration: Decoration) {
-    this.decoration = decorat
+    this.decoration = decoration;
+  }
+
+  get displayName(): string {
+    retur
