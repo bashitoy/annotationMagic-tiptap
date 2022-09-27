@@ -9,4 +9,7 @@ export class AnnotationDecoration<K> implements Annotation<K> {
   }
 
   get displayName(): string {
-    return this.decoration.type.spec.data.displa
+    return this.decoration.type.spec.data.displayName;
+  }
+  get tag(): string {
+    return this.decora
