@@ -9,4 +9,4 @@ export class AnnotationDecoration<K> implements Annotation<K> {
   }
 
   get displayName(): string {
-    retur
+    return this.decoration.type.spec.data.displa
