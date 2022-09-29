@@ -12,4 +12,8 @@ export class AnnotationDecoration<K> implements Annotation<K> {
     return this.decoration.type.spec.data.displayName;
   }
   get tag(): string {
-    return this.decora
+    return this.decoration.type.spec.data.tag;
+  }
+
+  get id() {
+    retu
