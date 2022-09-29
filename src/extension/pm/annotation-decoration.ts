@@ -19,4 +19,9 @@ export class AnnotationDecoration<K> implements Annotation<K> {
     return this.decoration.type.spec.id;
   }
 
-  get from
+  get from() {
+    return this.decoration.from;
+  }
+
+  get to() {
+    
