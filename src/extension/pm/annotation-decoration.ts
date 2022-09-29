@@ -16,4 +16,7 @@ export class AnnotationDecoration<K> implements Annotation<K> {
   }
 
   get id() {
-    retu
+    return this.decoration.type.spec.id;
+  }
+
+  get from
