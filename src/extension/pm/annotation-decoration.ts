@@ -27,4 +27,5 @@ export class AnnotationDecoration<K> implements Annotation<K> {
     return this.decoration.to;
   }
 
-  get selec
+  get selectedText() {
+    return this.decoration.type.spec.d
