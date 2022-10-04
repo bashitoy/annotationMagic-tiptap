@@ -35,4 +35,8 @@ export class AnnotationDecoration<K> implements Annotation<K> {
     return this.decoration.type.spec.data;
   }
 
-  get HTMLAttributes(
+  get HTMLAttributes() {
+    return this.decoration.type.attrs;
+  }
+
+  to
