@@ -39,4 +39,6 @@ export class AnnotationDecoration<K> implements Annotation<K> {
     return this.decoration.type.attrs;
   }
 
-  to
+  toString() {
+    return JSON.stringify({
+    
