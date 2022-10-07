@@ -45,4 +45,7 @@ export class AnnotationDecoration<K> implements Annotation<K> {
       data: this.data,
       from: this.from,
       to: this.to,
-      HTMLAttributes: 
+      HTMLAttributes: this.HTMLAttributes,
+    });
+  }
+}
