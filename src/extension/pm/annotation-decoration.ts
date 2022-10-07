@@ -41,4 +41,6 @@ export class AnnotationDecoration<K> implements Annotation<K> {
 
   toString() {
     return JSON.stringify({
-    
+      id: this.id,
+      data: this.data,
+      fro
