@@ -15,3 +15,44 @@ export interface AnnotationPluginOptions<K> {
 
 export const AnnotationPlugin = <K>(options: AnnotationPluginOptions<K>) =>
   new Plugin({
+    key: AnnotationPluginKey,
+
+    state: {
+      init() {
+        return new AnnotationState({
+          styles: options.styles,
+          map: new Map<string, Annotation<K>>(),
+          instance: options.instance,
+          onAnnotationListChange: options.onAnnotationListChange,
+          onSelectionChange: options.onSelectionChange,
+        });
+      },
+      apply(transaction, pluginState, oldState, newState) {
+        return pluginState.apply(transaction, newState);
+      },
+    },
+
+    props: {
+      decorations(state) {
+        const { decorations } = this.getState(state)!;
+        const { selection } = state;
+
+        // multiple characters selected
+        if (!selection.empty) {
+          const annotations = this.getState(state)!.termsAt(
+            selection.from,
+            selection.to,
+          );
+          options.onSelectionChange(annotations);
+          return decorations;
+        } else {
+          // only cursor change
+          const annotations = this.getState(state)!.termsAt(selection.from);
+
+          options.onSelectionChange(annotations);
+
+          return decorations;
+        }
+      },
+    },
+  });
