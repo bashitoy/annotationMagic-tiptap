@@ -1,1 +1,1 @@
-import 
+import { EditorState, Transaction } from "@tiptap/pm/sta
