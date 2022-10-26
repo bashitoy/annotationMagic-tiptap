@@ -7,4 +7,6 @@ import {
   AddAnnotationAction,
   DeleteAnnotationAction,
   RenderStyles,
-  
+  UpdateAnnotationAction,
+} from "../annotation-magic";
+import { 
