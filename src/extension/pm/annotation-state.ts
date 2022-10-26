@@ -10,3 +10,4 @@ import {
   UpdateAnnotationAction,
 } from "../annotation-magic";
 import { createAnnotationRendering } from "../rendering/engine";
+import { Annotation } from "../../contracts
