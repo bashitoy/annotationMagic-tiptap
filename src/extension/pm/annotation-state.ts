@@ -13,4 +13,6 @@ import { createAnnotationRendering } from "../rendering/engine";
 import { Annotation } from "../../contracts";
 
 interface AnnotationStateOptions<K> {
-  styles: Rend
+  styles: RenderStyles;
+  map: Map<string, Annotation<K>>;
+  instance: string
