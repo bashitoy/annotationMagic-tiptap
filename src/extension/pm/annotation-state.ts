@@ -15,4 +15,5 @@ import { Annotation } from "../../contracts";
 interface AnnotationStateOptions<K> {
   styles: RenderStyles;
   map: Map<string, Annotation<K>>;
-  instance: string
+  instance: string;
+  onAnnotationListChange: (items: Annotation<K
