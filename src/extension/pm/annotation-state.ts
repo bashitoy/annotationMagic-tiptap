@@ -17,4 +17,8 @@ interface AnnotationStateOptions<K> {
   map: Map<string, Annotation<K>>;
   instance: string;
   onAnnotationListChange: (items: Annotation<K>[]) => void;
-  onSelectionChange: (items: Annotation<K>[
+  onSelectionChange: (items: Annotation<K>[]) => void;
+}
+
+export class AnnotationState<K> {
+  o
