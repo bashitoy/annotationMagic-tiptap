@@ -21,4 +21,6 @@ interface AnnotationStateOptions<K> {
 }
 
 export class AnnotationState<K> {
-  o
+  options: AnnotationStateOptions<K>;
+
+  decorations = Deco
