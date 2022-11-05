@@ -16,4 +16,5 @@ interface AnnotationStateOptions<K> {
   styles: RenderStyles;
   map: Map<string, Annotation<K>>;
   instance: string;
-  onAnnotationListChange: (items: Annotation<K
+  onAnnotationListChange: (items: Annotation<K>[]) => void;
+  onSelectionChange: (items: Annotation<K>[
