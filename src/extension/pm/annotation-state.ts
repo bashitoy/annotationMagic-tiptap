@@ -25,4 +25,8 @@ export class AnnotationState<K> {
 
   decorations = DecorationSet.empty;
 
-  constructor(options: Annotat
+  constructor(options: AnnotationStateOptions<K>) {
+    this.options = options;
+  }
+
+  rand
