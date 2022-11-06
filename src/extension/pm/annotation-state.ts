@@ -23,4 +23,6 @@ interface AnnotationStateOptions<K> {
 export class AnnotationState<K> {
   options: AnnotationStateOptions<K>;
 
-  decorations = Deco
+  decorations = DecorationSet.empty;
+
+  constructor(options: Annotat
