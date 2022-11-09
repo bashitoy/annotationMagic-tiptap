@@ -29,4 +29,5 @@ export class AnnotationState<K> {
     this.options = options;
   }
 
-  rand
+  randomId() {
+    return Math.floor(Math.random() * 0xffffffff).toSt
