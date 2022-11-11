@@ -30,4 +30,8 @@ export class AnnotationState<K> {
   }
 
   randomId() {
-    return Math.floor(Math.random() * 0xffffffff).toSt
+    return Math.floor(Math.random() * 0xffffffff).toString();
+  }
+
+  addAnnotation(action: AddAnnotationAction<K>) {
+  
