@@ -34,4 +34,5 @@ export class AnnotationState<K> {
   }
 
   addAnnotation(action: AddAnnotationAction<K>) {
-  
+    const { map } = this.options;
+    const { from, to, d
