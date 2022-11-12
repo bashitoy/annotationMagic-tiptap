@@ -42,4 +42,5 @@ export class AnnotationState<K> {
     map.set(id, { id, from, to, data });
   }
 
-  updateAnnotation(
+  updateAnnotation(action: UpdateAnnotationAction<K>) {
+    const { map } = 
