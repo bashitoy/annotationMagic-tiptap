@@ -39,4 +39,7 @@ export class AnnotationState<K> {
 
     const id = this.randomId();
 
-  
+    map.set(id, { id, from, to, data });
+  }
+
+  updateAnnotation(
