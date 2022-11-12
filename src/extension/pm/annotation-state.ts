@@ -35,4 +35,8 @@ export class AnnotationState<K> {
 
   addAnnotation(action: AddAnnotationAction<K>) {
     const { map } = this.options;
-    const { from, to, d
+    const { from, to, data } = action;
+
+    const id = this.randomId();
+
+  
