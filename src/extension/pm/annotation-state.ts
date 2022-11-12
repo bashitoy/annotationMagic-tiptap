@@ -48,4 +48,8 @@ export class AnnotationState<K> {
     const annotationToUpdate = map.get(action.id);
 
     if (annotationToUpdate) {
-      annotationT
+      annotationToUpdate.data = action.data;
+    }
+  }
+
+  delete
