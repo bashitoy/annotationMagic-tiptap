@@ -45,4 +45,7 @@ export class AnnotationState<K> {
   updateAnnotation(action: UpdateAnnotationAction<K>) {
     const { map } = this.options;
 
-    const annotationToUpdate = map.get(
+    const annotationToUpdate = map.get(action.id);
+
+    if (annotationToUpdate) {
+      annotationT
