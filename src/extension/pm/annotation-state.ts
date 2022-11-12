@@ -54,3 +54,8 @@ export class AnnotationState<K> {
 
   deleteAnnotation(id: string) {
     const { map } = this.options;
+
+    map.delete(id);
+  }
+
+  termsAt(position: number
