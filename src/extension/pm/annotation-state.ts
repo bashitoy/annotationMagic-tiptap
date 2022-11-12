@@ -52,4 +52,5 @@ export class AnnotationState<K> {
     }
   }
 
-  delete
+  deleteAnnotation(id: string) {
+    const { map } = this.options;
