@@ -59,4 +59,5 @@ export class AnnotationState<K> {
   }
 
   termsAt(position: number, to?: number): Annotation<K>[] {
-    return this.decorations.find(position, to || position).map((decoration) 
+    return this.decorations.find(position, to || position).map((decoration) => {
+      return new AnnotationDecoration(decorati
