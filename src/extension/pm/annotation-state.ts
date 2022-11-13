@@ -58,4 +58,5 @@ export class AnnotationState<K> {
     map.delete(id);
   }
 
-  termsAt(position: number
+  termsAt(position: number, to?: number): Annotation<K>[] {
+    return this
