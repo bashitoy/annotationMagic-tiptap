@@ -66,4 +66,6 @@ export class AnnotationState<K> {
 
   allAnnotations(): Annotation<K>[] {
     const { map } = this.options;
-    return Array.fr
+    return Array.from(map.entries(), ([_, value]) => {
+      return value;
+    })
