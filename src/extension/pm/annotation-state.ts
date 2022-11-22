@@ -65,4 +65,5 @@ export class AnnotationState<K> {
   }
 
   allAnnotations(): Annotation<K>[] {
-    
+    const { map } = this.options;
+    return Array.fr
