@@ -75,4 +75,5 @@ export class AnnotationState<K> {
     const { map, styles } = this.options;
     const decorations: Decoration[] = [];
 
-    // o
+    // only terms, not connectives, are rendered
+    co
