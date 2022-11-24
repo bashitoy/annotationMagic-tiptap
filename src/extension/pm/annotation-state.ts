@@ -76,4 +76,5 @@ export class AnnotationState<K> {
     const decorations: Decoration[] = [];
 
     // only terms, not connectives, are rendered
-    const termList = Array.from(map, ([key, value]
+    const termList = Array.from(map, ([key, value]) => {
+      return { ...value, id: key
