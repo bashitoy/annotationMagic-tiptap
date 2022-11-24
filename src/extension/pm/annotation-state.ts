@@ -72,4 +72,7 @@ export class AnnotationState<K> {
   }
 
   createDecorations(state: EditorState) {
-    const { map, styles } = this.options
+    const { map, styles } = this.options;
+    const decorations: Decoration[] = [];
+
+    // o
