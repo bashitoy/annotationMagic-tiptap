@@ -71,4 +71,5 @@ export class AnnotationState<K> {
     });
   }
 
-  createDecorations(state: EditorState)
+  createDecorations(state: EditorState) {
+    const { map, styles } = this.options
