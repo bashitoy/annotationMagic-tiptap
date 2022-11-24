@@ -68,4 +68,7 @@ export class AnnotationState<K> {
     const { map } = this.options;
     return Array.from(map.entries(), ([_, value]) => {
       return value;
-    })
+    });
+  }
+
+  createDecorations(state: EditorState)
