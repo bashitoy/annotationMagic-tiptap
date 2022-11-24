@@ -77,4 +77,6 @@ export class AnnotationState<K> {
 
     // only terms, not connectives, are rendered
     const termList = Array.from(map, ([key, value]) => {
-      return { ...value, id: key
+      return { ...value, id: key };
+    }).filter((value) => {
+      return "from" in value && "t
