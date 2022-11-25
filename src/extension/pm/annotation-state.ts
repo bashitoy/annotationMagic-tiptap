@@ -82,4 +82,6 @@ export class AnnotationState<K> {
       return "from" in value && "to" in value;
     });
 
-    const annotationRe
+    const annotationRendering = createAnnotationRendering(termList);
+
+    annotatio
