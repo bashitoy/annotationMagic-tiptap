@@ -79,4 +79,7 @@ export class AnnotationState<K> {
     const termList = Array.from(map, ([key, value]) => {
       return { ...value, id: key };
     }).filter((value) => {
-      return "from" in value && "t
+      return "from" in value && "to" in value;
+    });
+
+    const annotationRe
