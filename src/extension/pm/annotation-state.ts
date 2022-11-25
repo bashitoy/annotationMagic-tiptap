@@ -84,4 +84,5 @@ export class AnnotationState<K> {
 
     const annotationRendering = createAnnotationRendering(termList);
 
-    annotatio
+    annotationRendering.forEach((annotation) => {
+      const from = anno
