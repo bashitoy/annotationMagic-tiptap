@@ -88,4 +88,5 @@ export class AnnotationState<K> {
       const from = annotation.from;
       const to = annotation.to;
 
-      //
+      // eslint-disable-next-line
+      console.log(`[${this.o
