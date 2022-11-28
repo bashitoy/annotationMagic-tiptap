@@ -99,4 +99,6 @@ export class AnnotationState<K> {
           `[${this.options.instance}] corrupt decoration `,
           annotation.from,
           from,
-     
+          annotation.to,
+          to,
+   
