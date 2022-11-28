@@ -94,4 +94,6 @@ export class AnnotationState<K> {
         data: annotation,
       });
 
-      
+      if (from === to) {
+        console.warn(
+          `[
