@@ -104,4 +104,5 @@ export class AnnotationState<K> {
         );
       }
 
-      let baseClasses; // = "border-bl
+      let baseClasses; // = "border-black p-0.5 font-semibold inline relative ";
+      sw
