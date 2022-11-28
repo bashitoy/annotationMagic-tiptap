@@ -90,4 +90,8 @@ export class AnnotationState<K> {
 
       // eslint-disable-next-line
       console.log(`[${this.options.instance}] Decoration.inline()`, from, to, {
-        
+        id: annotation.id,
+        data: annotation,
+      });
+
+      
