@@ -97,4 +97,6 @@ export class AnnotationState<K> {
       if (from === to) {
         console.warn(
           `[${this.options.instance}] corrupt decoration `,
-   
+          annotation.from,
+          from,
+     
