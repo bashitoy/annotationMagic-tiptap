@@ -101,4 +101,7 @@ export class AnnotationState<K> {
           from,
           annotation.to,
           to,
-   
+        );
+      }
+
+      let baseClasses; // = "border-bl
