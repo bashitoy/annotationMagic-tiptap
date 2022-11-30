@@ -106,4 +106,6 @@ export class AnnotationState<K> {
 
       let baseClasses; // = "border-black p-0.5 font-semibold inline relative ";
       switch (annotation.rendering) {
-        case "fragment-left
+        case "fragment-left":
+          baseClasses = styles.leftFragment;
+      
