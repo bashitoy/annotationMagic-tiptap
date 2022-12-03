@@ -108,4 +108,6 @@ export class AnnotationState<K> {
       switch (annotation.rendering) {
         case "fragment-left":
           baseClasses = styles.leftFragment;
-      
+          break;
+        case "fragment-middle":
+          baseC
