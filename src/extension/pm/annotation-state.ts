@@ -113,4 +113,6 @@ export class AnnotationState<K> {
           baseClasses = styles.middleFragment;
           break;
         case "fragment-right":
-          baseClass
+          baseClasses = styles.rightFragment;
+          break;
+    
