@@ -119,4 +119,7 @@ export class AnnotationState<K> {
           baseClasses = styles.normal;
           break;
         default:
-   
+          break;
+      }
+
+      // set custom background co
