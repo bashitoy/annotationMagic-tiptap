@@ -116,4 +116,7 @@ export class AnnotationState<K> {
           baseClasses = styles.rightFragment;
           break;
         case "normal":
-          baseClasses = styles.no
+          baseClasses = styles.normal;
+          break;
+        default:
+   
