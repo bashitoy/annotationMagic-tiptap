@@ -122,4 +122,6 @@ export class AnnotationState<K> {
           break;
       }
 
-      // set custom background co
+      // set custom background color
+      let customStyle = undefined;
+      if (ann
