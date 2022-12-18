@@ -126,4 +126,4 @@ export class AnnotationState<K> {
       let customStyle = undefined;
       if (annotation.backgroundColor) {
         customStyle = {
-   
+          style: "background-color: " + annotation.backg
