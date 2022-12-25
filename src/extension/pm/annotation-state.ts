@@ -131,4 +131,6 @@ export class AnnotationState<K> {
         };
       }
 
-      deco
+      decorations.push(
+        Decoration.inline(
+          fro
