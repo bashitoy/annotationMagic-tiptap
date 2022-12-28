@@ -133,4 +133,7 @@ export class AnnotationState<K> {
 
       decorations.push(
         Decoration.inline(
-          fro
+          from,
+          to,
+          customStyle || {
+   
