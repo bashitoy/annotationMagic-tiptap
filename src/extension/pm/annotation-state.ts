@@ -137,4 +137,7 @@ export class AnnotationState<K> {
           to,
           customStyle || {
             class: baseClasses,
-            style: "background-col
+            style: "background-color: white;",
+          },
+          {
+            id: anno
