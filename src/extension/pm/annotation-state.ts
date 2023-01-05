@@ -140,4 +140,6 @@ export class AnnotationState<K> {
             style: "background-color: white;",
           },
           {
-            id: anno
+            id: annotation.id,
+            data: annotation,
+           
