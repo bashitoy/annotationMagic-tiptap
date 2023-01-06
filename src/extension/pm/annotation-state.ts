@@ -146,4 +146,6 @@ export class AnnotationState<K> {
           },
         ),
       );
-   
+    });
+
+    this.decorations = DecorationSet.create(stat
