@@ -142,4 +142,8 @@ export class AnnotationState<K> {
           {
             id: annotation.id,
             data: annotation,
-           
+            inclusiveEnd: true,
+          },
+        ),
+      );
+   
