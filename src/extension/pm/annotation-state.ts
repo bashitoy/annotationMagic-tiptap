@@ -151,4 +151,5 @@ export class AnnotationState<K> {
     this.decorations = DecorationSet.create(state.doc, decorations);
   }
 
-  apply(transaction: Transac
+  apply(transaction: Transaction, state: EditorState) {
+    // Add/Remove 
