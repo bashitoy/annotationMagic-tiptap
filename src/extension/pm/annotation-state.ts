@@ -152,4 +152,5 @@ export class AnnotationState<K> {
   }
 
   apply(transaction: Transaction, state: EditorState) {
-    // Add/Remove 
+    // Add/Remove annotations
+    const action = transaction.getMeta(
