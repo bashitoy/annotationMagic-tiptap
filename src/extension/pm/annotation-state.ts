@@ -155,3 +155,5 @@ export class AnnotationState<K> {
     // Add/Remove annotations
     const action = transaction.getMeta(AnnotationPluginKey) as
       | AddAnnotationAction<K>
+      | UpdateAnnotationAction<K>
+      | DeleteAnnotationAc
