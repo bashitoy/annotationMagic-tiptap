@@ -159,4 +159,4 @@ export class AnnotationState<K> {
       | DeleteAnnotationAction;
 
     if (action && action.type) {
-      console
+      console.log(`[${this.options.instance}] action: ${action.t
