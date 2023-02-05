@@ -156,4 +156,7 @@ export class AnnotationState<K> {
     const action = transaction.getMeta(AnnotationPluginKey) as
       | AddAnnotationAction<K>
       | UpdateAnnotationAction<K>
-      | DeleteAnnotationAc
+      | DeleteAnnotationAction;
+
+    if (action && action.type) {
+      console
