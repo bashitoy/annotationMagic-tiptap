@@ -161,4 +161,8 @@ export class AnnotationState<K> {
     if (action && action.type) {
       console.log(`[${this.options.instance}] action: ${action.type}`);
 
-      if (action.type === "addAnnotatio
+      if (action.type === "addAnnotation") {
+        this.addAnnotation(action);
+      }
+
+     
