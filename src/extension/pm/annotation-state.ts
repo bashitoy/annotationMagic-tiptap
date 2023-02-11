@@ -166,4 +166,7 @@ export class AnnotationState<K> {
       }
 
       if (action.type === "updateAnnotation") {
-      
+        this.updateAnnotation(action);
+      }
+
+      if (act
