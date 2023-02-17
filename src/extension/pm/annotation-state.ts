@@ -169,4 +169,5 @@ export class AnnotationState<K> {
         this.updateAnnotation(action);
       }
 
-      if (act
+      if (action.type === "deleteAnnotation") {
+        this.
