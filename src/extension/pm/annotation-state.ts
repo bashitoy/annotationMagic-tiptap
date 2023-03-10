@@ -173,4 +173,6 @@ export class AnnotationState<K> {
         this.deleteAnnotation(action.id);
       }
 
-     
+      this.createDecorations(state);
+
+      this.options
