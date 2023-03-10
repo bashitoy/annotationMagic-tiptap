@@ -175,4 +175,6 @@ export class AnnotationState<K> {
 
       this.createDecorations(state);
 
-      this.options
+      this.options.onAnnotationListChange(this.allAnnotations());
+
+      retur
