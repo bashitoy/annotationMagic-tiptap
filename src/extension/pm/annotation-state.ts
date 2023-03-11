@@ -177,4 +177,7 @@ export class AnnotationState<K> {
 
       this.options.onAnnotationListChange(this.allAnnotations());
 
-      retur
+      return this;
+    }
+
+    // manually map annotation posi
