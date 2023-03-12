@@ -180,4 +180,5 @@ export class AnnotationState<K> {
       return this;
     }
 
-    // manually map annotation posi
+    // manually map annotation positions
+    this.options.map.forEach((annotation,
