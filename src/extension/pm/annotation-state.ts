@@ -181,4 +181,5 @@ export class AnnotationState<K> {
     }
 
     // manually map annotation positions
-    this.options.map.forEach((annotation,
+    this.options.map.forEach((annotation, _) => {
+      if ("from" in annotation && "to" in a
