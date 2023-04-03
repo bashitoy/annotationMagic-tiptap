@@ -188,4 +188,8 @@ export class AnnotationState<K> {
       }
     });
 
-    this.createDe
+    this.createDecorations(state);
+
+    return this;
+  }
+}
