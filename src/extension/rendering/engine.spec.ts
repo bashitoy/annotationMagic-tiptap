@@ -45,3 +45,60 @@ describe("Test sorting of annotation list", () => {
       to: 9,
       displayName: "X",
       tag: "X",
+    },
+    {
+      id: "abc",
+      from: 0,
+      to: 5,
+      displayName: "X",
+      tag: "X",
+    },
+  ];
+
+  const resultList: Annotation<any>[] = [
+    {
+      id: "abc",
+      from: 0,
+      to: 5,
+      displayName: "X",
+      tag: "X",
+    },
+    {
+      id: "abc",
+      from: 3,
+      to: 9,
+      displayName: "X",
+      tag: "X",
+    },
+    {
+      id: "abc",
+      from: 5,
+      to: 6,
+      displayName: "X",
+      tag: "X",
+    },
+  ];
+
+  test("should sort the annotation list by starting point of the annotation", () => {
+    expect(sortAnnotationsByStart(testList)).toEqual(resultList);
+  });
+});
+
+describe("Mapping the annotation list to a flat representation", () => {
+  const testCases: {
+    inputAnnotations: Annotation<any>[];
+    flatMapping: AnnotationFragment<any>[];
+    name?: string;
+  }[] = [
+    {
+      name: "Simple overlap",
+      inputAnnotations: [
+        {
+          id: "abc",
+          from: 0,
+          to: 5,
+          displayName: "X",
+          tag: "X",
+        },
+        {
+          id: "abc",
