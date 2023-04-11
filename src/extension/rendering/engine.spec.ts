@@ -102,3 +102,54 @@ describe("Mapping the annotation list to a flat representation", () => {
         },
         {
           id: "abc",
+          from: 4,
+          to: 8,
+          displayName: "Y",
+          tag: "Y",
+        },
+        {
+          id: "abc",
+          from: 10,
+          to: 15,
+          displayName: "Z",
+          tag: "Z",
+        },
+      ],
+      flatMapping: [
+        {
+          id: "abc",
+          from: 0,
+          to: 4,
+          displayName: "X",
+          tag: "X",
+          rendering: "fragment-left",
+        },
+        {
+          id: "abc",
+          from: 4,
+          to: 8,
+          displayName: "Y",
+          tag: "Y",
+          rendering: "normal",
+        },
+        {
+          id: "abc",
+          from: 10,
+          to: 15,
+          displayName: "Z",
+          tag: "Z",
+          rendering: "normal",
+        },
+      ],
+    },
+    {
+      name: "No overlap",
+      inputAnnotations: [
+        {
+          id: "abc",
+          from: 11,
+          to: 15,
+          displayName: "Z",
+          tag: "Z",
+        },
+        {
