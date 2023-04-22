@@ -310,3 +310,47 @@ describe("Mapping the annotation list to a flat representation", () => {
       name: "Middle fragment",
       inputAnnotations: [
         {
+          id: "abc",
+          from: 0,
+          to: 15,
+          displayName: "X",
+          tag: "X",
+        },
+        {
+          id: "abc",
+          from: 3,
+          to: 6,
+          displayName: "Y",
+          tag: "Y",
+        },
+        {
+          id: "abc",
+          from: 10,
+          to: 13,
+          displayName: "Z",
+          tag: "Z",
+        },
+      ],
+      flatMapping: [
+        {
+          id: "abc",
+          from: 0,
+          to: 3,
+          displayName: "X",
+          tag: "X",
+          rendering: "fragment-left",
+        },
+        {
+          id: "abc",
+          from: 3,
+          to: 6,
+          displayName: "Y",
+          tag: "Y",
+          rendering: "normal",
+        },
+        {
+          id: "abc",
+          from: 6,
+          to: 10,
+          displayName: "X",
+          tag: "X",
