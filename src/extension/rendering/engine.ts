@@ -5,4 +5,6 @@ import {
 } from "../../contracts/annotation";
 
 interface ActionKeyframe {
-  action: "open" | "clos
+  action: "open" | "close";
+  annotationIndex: number;
+  textAnchor: numbe
