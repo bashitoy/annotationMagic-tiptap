@@ -7,4 +7,8 @@ import {
 interface ActionKeyframe {
   action: "open" | "close";
   annotationIndex: number;
-  textAnchor: numbe
+  textAnchor: number;
+}
+
+export const isConflicting = (
+  fromA: num
