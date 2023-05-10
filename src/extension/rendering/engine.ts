@@ -21,4 +21,7 @@ export const isConflicting = (
   // case 2: (non-conflicting) B is before A
   if (fromB < toA && toB < fromA) return false;
   // case 3: (conflicting) some kind of overlap
-  re
+  return true;
+};
+
+export const createAnnotationRender
