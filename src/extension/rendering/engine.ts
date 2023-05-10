@@ -11,4 +11,8 @@ interface ActionKeyframe {
 }
 
 export const isConflicting = (
-  fromA: num
+  fromA: number,
+  toA: number,
+  fromB: number,
+  toB: number,
+): boolean
