@@ -18,4 +18,5 @@ export const isConflicting = (
 ): boolean => {
   // case 1: (non-conflicting) A is before B
   if (fromA < toB && toA < fromB) return false;
-  // case 2: (non-conflicting
+  // case 2: (non-conflicting) B is before A
+  if (fromB < toA && toB < fromA) return f
