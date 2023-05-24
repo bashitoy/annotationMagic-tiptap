@@ -26,4 +26,5 @@ export const isConflicting = (
 
 export const createAnnotationRendering = (
   annotations: Annotation<any>[],
-): AnnotationFragmen
+): AnnotationFragment<any>[] => {
+  const renderedAnnotations: Annotati
