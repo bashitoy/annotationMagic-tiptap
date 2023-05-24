@@ -24,4 +24,6 @@ export const isConflicting = (
   return true;
 };
 
-export const createAnnotationRender
+export const createAnnotationRendering = (
+  annotations: Annotation<any>[],
+): AnnotationFragmen
