@@ -27,4 +27,5 @@ export const isConflicting = (
 export const createAnnotationRendering = (
   annotations: Annotation<any>[],
 ): AnnotationFragment<any>[] => {
-  const renderedAnnotations: Annotati
+  const renderedAnnotations: AnnotationFragment<any>[] = [];
+  const openAnnotationStack: ActionKey
