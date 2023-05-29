@@ -28,4 +28,5 @@ export const createAnnotationRendering = (
   annotations: Annotation<any>[],
 ): AnnotationFragment<any>[] => {
   const renderedAnnotations: AnnotationFragment<any>[] = [];
-  const openAnnotationStack: ActionKey
+  const openAnnotationStack: ActionKeyframe[] = [];
+  const actionMap: ActionKeyframe[][] = [
