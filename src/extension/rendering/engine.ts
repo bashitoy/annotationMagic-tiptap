@@ -30,4 +30,6 @@ export const createAnnotationRendering = (
   const renderedAnnotations: AnnotationFragment<any>[] = [];
   const openAnnotationStack: ActionKeyframe[] = [];
   const actionMap: ActionKeyframe[][] = [];
-  const annotationFragmentation: boolean[] = 
+  const annotationFragmentation: boolean[] = [];
+
+  // STEP 1: Create a Map, containing the ren
