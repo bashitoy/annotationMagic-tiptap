@@ -33,4 +33,5 @@ export const createAnnotationRendering = (
   const annotationFragmentation: boolean[] = [];
 
   // STEP 1: Create a Map, containing the rendering actions for each index in the document.
-  // this
+  // this could be opening or closing an annotation
+  annotati
