@@ -32,4 +32,5 @@ export const createAnnotationRendering = (
   const actionMap: ActionKeyframe[][] = [];
   const annotationFragmentation: boolean[] = [];
 
-  // STEP 1: Create a Map, containing the ren
+  // STEP 1: Create a Map, containing the rendering actions for each index in the document.
+  // this
