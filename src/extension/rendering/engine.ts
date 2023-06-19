@@ -34,4 +34,5 @@ export const createAnnotationRendering = (
 
   // STEP 1: Create a Map, containing the rendering actions for each index in the document.
   // this could be opening or closing an annotation
-  annotati
+  annotations.forEach((term, index) => {
+    // create an open
