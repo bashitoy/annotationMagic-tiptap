@@ -37,4 +37,6 @@ export const createAnnotationRendering = (
   annotations.forEach((term, index) => {
     // create an opening action keyframe
     let open: ActionKeyframe = {
-    
+      action: "open",
+      annotationIndex: index,
+     
