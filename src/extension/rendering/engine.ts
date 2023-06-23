@@ -45,4 +45,6 @@ export const createAnnotationRendering = (
     let close: ActionKeyframe = {
       action: "close",
       annotationIndex: index,
-      
+      textAnchor: term.to,
+    };
+    let openMapElement = acti
