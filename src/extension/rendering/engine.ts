@@ -43,4 +43,6 @@ export const createAnnotationRendering = (
     };
     // create a closing action keyframe
     let close: ActionKeyframe = {
-      ac
+      action: "close",
+      annotationIndex: index,
+      
