@@ -39,4 +39,6 @@ export const createAnnotationRendering = (
     let open: ActionKeyframe = {
       action: "open",
       annotationIndex: index,
-     
+      textAnchor: term.from,
+    };
+    // create a closing a
