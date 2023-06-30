@@ -49,4 +49,5 @@ export const createAnnotationRendering = (
     };
     let openMapElement = actionMap[open.textAnchor];
     // create empty actions list if necessary
-    if (!openMapElement) actionM
+    if (!openMapElement) actionMap[open.textAnchor] = [];
+    actionMap[open.textAnchor].p
