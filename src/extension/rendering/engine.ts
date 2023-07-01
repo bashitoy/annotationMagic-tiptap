@@ -50,4 +50,6 @@ export const createAnnotationRendering = (
     let openMapElement = actionMap[open.textAnchor];
     // create empty actions list if necessary
     if (!openMapElement) actionMap[open.textAnchor] = [];
-    actionMap[open.textAnchor].p
+    actionMap[open.textAnchor].push(open);
+
+    let closeMapElement = actionMap[cl
