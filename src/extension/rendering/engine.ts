@@ -57,4 +57,5 @@ export const createAnnotationRendering = (
     actionMap[close.textAnchor].push(close);
   });
 
-  actionMap // STEP 2: it
+  actionMap // STEP 2: iterate the actionMap and generate the annotation UI elements
+    .f
