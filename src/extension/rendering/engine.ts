@@ -54,4 +54,7 @@ export const createAnnotationRendering = (
 
     let closeMapElement = actionMap[close.textAnchor];
     if (!closeMapElement) actionMap[close.textAnchor] = [];
-    actionMap[close.textAnc
+    actionMap[close.textAnchor].push(close);
+  });
+
+  actionMap // STEP 2: it
