@@ -58,4 +58,5 @@ export const createAnnotationRendering = (
   });
 
   actionMap // STEP 2: iterate the actionMap and generate the annotation UI elements
-    .f
+    .forEach((actions, _) => {
+      actions.forEach((
