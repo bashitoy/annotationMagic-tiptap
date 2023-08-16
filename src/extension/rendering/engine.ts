@@ -59,4 +59,5 @@ export const createAnnotationRendering = (
 
   actionMap // STEP 2: iterate the actionMap and generate the annotation UI elements
     .forEach((actions, _) => {
-      actions.forEach((
+      actions.forEach((action) => {
+        // check if there are
