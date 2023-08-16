@@ -60,4 +60,5 @@ export const createAnnotationRendering = (
   actionMap // STEP 2: iterate the actionMap and generate the annotation UI elements
     .forEach((actions, _) => {
       actions.forEach((action) => {
-        // check if there are
+        // check if there are still open annotations
+        if (openAnnotat
