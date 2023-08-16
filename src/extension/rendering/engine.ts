@@ -61,4 +61,6 @@ export const createAnnotationRendering = (
     .forEach((actions, _) => {
       actions.forEach((action) => {
         // check if there are still open annotations
-        if (openAnnotat
+        if (openAnnotationStack.length != 0) {
+          let actionStackPeek =
+  
