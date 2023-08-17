@@ -63,4 +63,4 @@ export const createAnnotationRendering = (
         // check if there are still open annotations
         if (openAnnotationStack.length != 0) {
           let actionStackPeek =
-  
+            openAnnotationStack[openAnnotationStack.length
