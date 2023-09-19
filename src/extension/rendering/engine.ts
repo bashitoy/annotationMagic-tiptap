@@ -66,4 +66,7 @@ export const createAnnotationRendering = (
             openAnnotationStack[openAnnotationStack.length - 1];
           if (
             actionStackPeek.action === "open" &&
-            actionStackPeek.annotationIndex === action.annotationIndex &
+            actionStackPeek.annotationIndex === action.annotationIndex &&
+            action.action === "close"
+          ) {
+ 
