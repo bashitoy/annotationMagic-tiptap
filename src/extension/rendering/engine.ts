@@ -70,4 +70,5 @@ export const createAnnotationRendering = (
             action.action === "close"
           ) {
             // base case: the last opened annotation is closed by next action
-            openAnnotatio
+            openAnnotationStack.pop();
+            let rendering: Annotat
