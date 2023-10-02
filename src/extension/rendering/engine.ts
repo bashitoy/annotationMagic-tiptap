@@ -69,4 +69,5 @@ export const createAnnotationRendering = (
             actionStackPeek.annotationIndex === action.annotationIndex &&
             action.action === "close"
           ) {
-            // base case: the last opened annotation
+            // base case: the last opened annotation is closed by next action
+            openAnnotatio
