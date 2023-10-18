@@ -71,4 +71,5 @@ export const createAnnotationRendering = (
           ) {
             // base case: the last opened annotation is closed by next action
             openAnnotationStack.pop();
-            let rendering: Annotat
+            let rendering: AnnotationRendering = annotationFragmentation[
+          
