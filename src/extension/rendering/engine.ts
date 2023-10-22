@@ -74,4 +74,6 @@ export const createAnnotationRendering = (
             let rendering: AnnotationRendering = annotationFragmentation[
               action.annotationIndex
             ]
-              ? 
+              ? "fragment-right"
+              : "normal";
+            le
