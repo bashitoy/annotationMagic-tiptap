@@ -76,4 +76,4 @@ export const createAnnotationRendering = (
             ]
               ? "fragment-right"
               : "normal";
-            le
+            let from: number = annotationFragmentation[action.annotatio
