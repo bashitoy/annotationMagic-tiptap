@@ -77,4 +77,5 @@ export const createAnnotationRendering = (
               ? "fragment-right"
               : "normal";
             let from: number = annotationFragmentation[action.annotationIndex]
-              ? renderedAnnotations[renderedAn
+              ? renderedAnnotations[renderedAnnotations.length - 1].to
+              : annotations[action.annota
