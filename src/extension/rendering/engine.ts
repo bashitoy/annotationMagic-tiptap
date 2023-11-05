@@ -78,4 +78,5 @@ export const createAnnotationRendering = (
               : "normal";
             let from: number = annotationFragmentation[action.annotationIndex]
               ? renderedAnnotations[renderedAnnotations.length - 1].to
-              : annotations[action.annota
+              : annotations[action.annotationIndex].from;
+            let normalTerm: Annotatio
