@@ -80,4 +80,6 @@ export const createAnnotationRendering = (
               ? renderedAnnotations[renderedAnnotations.length - 1].to
               : annotations[action.annotationIndex].from;
             let normalTerm: AnnotationFragment<any> = {
-              ...annotations[action.
+              ...annotations[action.annotationIndex],
+              from,
+              rend
