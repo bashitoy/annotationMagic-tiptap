@@ -82,4 +82,6 @@ export const createAnnotationRendering = (
             let normalTerm: AnnotationFragment<any> = {
               ...annotations[action.annotationIndex],
               from,
-              rend
+              rendering,
+            };
+            if (normal
