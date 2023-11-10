@@ -84,4 +84,5 @@ export const createAnnotationRendering = (
               from,
               rendering,
             };
-            if (normal
+            if (normalTerm.from < normalTerm.to) {
+              renderedAnn
