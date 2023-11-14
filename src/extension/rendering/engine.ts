@@ -89,4 +89,6 @@ export const createAnnotationRendering = (
             }
           } else if (
             actionStackPeek.action === "open" &&
-            action.action === "c
+            action.action === "close"
+          ) {
+            // annotation is closed 
