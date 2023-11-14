@@ -88,4 +88,5 @@ export const createAnnotationRendering = (
               renderedAnnotations.push(normalTerm);
             }
           } else if (
-            actionStackPeek.ac
+            actionStackPeek.action === "open" &&
+            action.action === "c
