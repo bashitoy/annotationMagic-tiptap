@@ -85,4 +85,6 @@ export const createAnnotationRendering = (
               rendering,
             };
             if (normalTerm.from < normalTerm.to) {
-              renderedAnn
+              renderedAnnotations.push(normalTerm);
+            }
+  
