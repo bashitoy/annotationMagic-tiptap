@@ -87,4 +87,5 @@ export const createAnnotationRendering = (
             if (normalTerm.from < normalTerm.to) {
               renderedAnnotations.push(normalTerm);
             }
-  
+          } else if (
+            actionStackPeek.ac
