@@ -91,4 +91,5 @@ export const createAnnotationRendering = (
             actionStackPeek.action === "open" &&
             action.action === "close"
           ) {
-            // annotation is closed 
+            // annotation is closed while being overlapped by another annotation
+    
