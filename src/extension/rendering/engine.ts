@@ -93,4 +93,4 @@ export const createAnnotationRendering = (
           ) {
             // annotation is closed while being overlapped by another annotation
             // -> find "open" action and remove it, otherwise a new truncated segment would be created
-            let i
+            let indexOfActionToRemove = openAnnotationStack.findI
