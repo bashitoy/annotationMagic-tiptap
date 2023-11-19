@@ -95,4 +95,5 @@ export const createAnnotationRendering = (
             // -> find "open" action and remove it, otherwise a new truncated segment would be created
             let indexOfActionToRemove = openAnnotationStack.findIndex((a) => {
               return (
-                a.textAn
+                a.textAnchor === annotations[action.annotationIndex].from &&
+           
