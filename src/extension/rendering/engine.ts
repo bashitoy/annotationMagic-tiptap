@@ -96,4 +96,6 @@ export const createAnnotationRendering = (
             let indexOfActionToRemove = openAnnotationStack.findIndex((a) => {
               return (
                 a.textAnchor === annotations[action.annotationIndex].from &&
-                a.annotationIndex === action.annotat
+                a.annotationIndex === action.annotationIndex &&
+                a.action === "open"
+      
