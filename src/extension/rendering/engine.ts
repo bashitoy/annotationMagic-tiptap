@@ -98,4 +98,6 @@ export const createAnnotationRendering = (
                 a.textAnchor === annotations[action.annotationIndex].from &&
                 a.annotationIndex === action.annotationIndex &&
                 a.action === "open"
-      
+              );
+            });
+            if (indexOfA
