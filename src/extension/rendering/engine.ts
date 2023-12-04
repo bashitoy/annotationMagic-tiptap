@@ -100,4 +100,5 @@ export const createAnnotationRendering = (
                 a.action === "open"
               );
             });
-            if (indexOfA
+            if (indexOfActionToRemove > -1) {
+              openAnnotationStack.s
