@@ -102,4 +102,6 @@ export const createAnnotationRendering = (
             });
             if (indexOfActionToRemove > -1) {
               openAnnotationStack.splice(indexOfActionToRemove, 1);
-            } else
+            } else {
+              throw Error(
+                "C
