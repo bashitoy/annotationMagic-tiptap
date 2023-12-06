@@ -101,4 +101,5 @@ export const createAnnotationRendering = (
               );
             });
             if (indexOfActionToRemove > -1) {
-              openAnnotationStack.s
+              openAnnotationStack.splice(indexOfActionToRemove, 1);
+            } else
