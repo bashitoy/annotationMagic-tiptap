@@ -106,3 +106,6 @@ export const createAnnotationRendering = (
               throw Error(
                 "Couldn't find opening keyframe for annotation " +
                   action.annotationIndex,
+              );
+            }
+          } else if (
