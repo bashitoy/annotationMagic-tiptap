@@ -104,4 +104,4 @@ export const createAnnotationRendering = (
               openAnnotationStack.splice(indexOfActionToRemove, 1);
             } else {
               throw Error(
-                "C
+                "Couldn't find opening keyframe for annot
