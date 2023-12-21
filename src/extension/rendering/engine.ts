@@ -109,3 +109,5 @@ export const createAnnotationRendering = (
               );
             }
           } else if (
+            actionStackPeek.action === "open" &&
+            ac
