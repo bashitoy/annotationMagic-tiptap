@@ -110,4 +110,6 @@ export const createAnnotationRendering = (
             }
           } else if (
             actionStackPeek.action === "open" &&
-            ac
+            action.action === "open"
+          ) {
+            let fragment: Anno
