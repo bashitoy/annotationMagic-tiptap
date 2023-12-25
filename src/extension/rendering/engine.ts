@@ -114,4 +114,5 @@ export const createAnnotationRendering = (
           ) {
             let fragment: AnnotationFragment<any>;
             if (annotationFragmentation[actionStackPeek.annotationIndex]) {
-              // n-th truncation (n > 1): render a m
+              // n-th truncation (n > 1): render a middle fragment
+              fragment
