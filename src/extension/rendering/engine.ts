@@ -113,4 +113,5 @@ export const createAnnotationRendering = (
             action.action === "open"
           ) {
             let fragment: AnnotationFragment<any>;
-            if (annotationFragmen
+            if (annotationFragmentation[actionStackPeek.annotationIndex]) {
+ 
