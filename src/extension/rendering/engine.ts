@@ -118,4 +118,5 @@ export const createAnnotationRendering = (
               fragment = {
                 ...annotations[actionStackPeek.annotationIndex],
                 rendering: "fragment-middle",
-                // start where the last rendered annotat
+                // start where the last rendered annotation ends + 1
+                from: renderedAnnotations[rend
