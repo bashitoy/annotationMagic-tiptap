@@ -120,4 +120,5 @@ export const createAnnotationRendering = (
                 rendering: "fragment-middle",
                 // start where the last rendered annotation ends + 1
                 from: renderedAnnotations[renderedAnnotations.length - 1].to,
-                // stop
+                // stop where the next annotation begins - 1
+     
