@@ -121,4 +121,5 @@ export const createAnnotationRendering = (
                 // start where the last rendered annotation ends + 1
                 from: renderedAnnotations[renderedAnnotations.length - 1].to,
                 // stop where the next annotation begins - 1
-     
+                to: annotations[action.annotationIndex].from,
+   
