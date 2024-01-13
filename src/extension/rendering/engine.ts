@@ -122,4 +122,6 @@ export const createAnnotationRendering = (
                 from: renderedAnnotations[renderedAnnotations.length - 1].to,
                 // stop where the next annotation begins - 1
                 to: annotations[action.annotationIndex].from,
-   
+              };
+            } else {
+          
