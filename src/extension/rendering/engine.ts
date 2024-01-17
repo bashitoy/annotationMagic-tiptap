@@ -124,4 +124,4 @@ export const createAnnotationRendering = (
                 to: annotations[action.annotationIndex].from,
               };
             } else {
-          
+              // first-time-truncation: a new anno
