@@ -124,4 +124,6 @@ export const createAnnotationRendering = (
                 to: annotations[action.annotationIndex].from,
               };
             } else {
-              // first-time-truncation: a new annotation begins, truncating the old open annotati
+              // first-time-truncation: a new annotation begins, truncating the old open annotation
+              fragment = {
+                ..
