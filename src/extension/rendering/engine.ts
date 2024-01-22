@@ -126,4 +126,5 @@ export const createAnnotationRendering = (
             } else {
               // first-time-truncation: a new annotation begins, truncating the old open annotation
               fragment = {
-                ..
+                ...annotations[actionStackPeek.annotationIndex],
+       
