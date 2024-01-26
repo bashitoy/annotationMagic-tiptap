@@ -127,4 +127,5 @@ export const createAnnotationRendering = (
               // first-time-truncation: a new annotation begins, truncating the old open annotation
               fragment = {
                 ...annotations[actionStackPeek.annotationIndex],
-       
+                rendering: "fragment-left",
+                to: annot
