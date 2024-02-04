@@ -128,4 +128,6 @@ export const createAnnotationRendering = (
               fragment = {
                 ...annotations[actionStackPeek.annotationIndex],
                 rendering: "fragment-left",
-                to: annot
+                to: annotations[action.annotationIndex].from,
+              };
+              
