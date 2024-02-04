@@ -130,4 +130,5 @@ export const createAnnotationRendering = (
                 rendering: "fragment-left",
                 to: annotations[action.annotationIndex].from,
               };
-              
+              // mark the previous annotation as fragmented
+            
