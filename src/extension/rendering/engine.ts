@@ -134,4 +134,5 @@ export const createAnnotationRendering = (
               annotationFragmentation[actionStackPeek.annotationIndex] = true;
             }
 
-            if (fragment.from < fragment.to)
+            if (fragment.from < fragment.to) {
+              renderedAnnotations.push(fragment);
