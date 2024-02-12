@@ -131,4 +131,7 @@ export const createAnnotationRendering = (
                 to: annotations[action.annotationIndex].from,
               };
               // mark the previous annotation as fragmented
-              annotationFragmentation[actionStackPeek.annotationIndex] =
+              annotationFragmentation[actionStackPeek.annotationIndex] = true;
+            }
+
+            if (fragment.from < fragment.to)
