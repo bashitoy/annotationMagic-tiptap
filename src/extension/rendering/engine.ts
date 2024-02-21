@@ -137,4 +137,6 @@ export const createAnnotationRendering = (
             if (fragment.from < fragment.to) {
               renderedAnnotations.push(fragment);
             }
-            openAnnotationSta
+            openAnnotationStack.push(action);
+          }
+        } else if (action
