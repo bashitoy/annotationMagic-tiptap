@@ -140,4 +140,7 @@ export const createAnnotationRendering = (
             openAnnotationStack.push(action);
           }
         } else if (action.action === "open") {
-          openAnnotation
+          openAnnotationStack.push(action);
+        }
+      });
+    })
