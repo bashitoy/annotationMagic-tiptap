@@ -143,4 +143,9 @@ export const createAnnotationRendering = (
           openAnnotationStack.push(action);
         }
       });
-    })
+    });
+
+  return renderedAnnotations;
+};
+
+export const sortAnnota
