@@ -148,4 +148,6 @@ export const createAnnotationRendering = (
   return renderedAnnotations;
 };
 
-export const sortAnnota
+export const sortAnnotationsByStart = (
+  annotations: Annotation<any>[],
+): Annotat
