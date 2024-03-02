@@ -150,4 +150,5 @@ export const createAnnotationRendering = (
 
 export const sortAnnotationsByStart = (
   annotations: Annotation<any>[],
-): Annotat
+): Annotation<any>[] => {
+  return annotations.sort((a, b) => a.fr
