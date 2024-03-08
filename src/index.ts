@@ -1,2 +1,2 @@
 export * from "./extension";
-export * 
+export * from "./contracts";
