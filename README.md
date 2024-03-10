@@ -1,0 +1,2 @@
+
+# AnnotationMagic for Tiptap
